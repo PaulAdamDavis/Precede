@@ -30,6 +30,7 @@ Parts of the theme such as pagination and navigation usually use a built-in part
 - Cover images
 - Posts
 - Pages
+- 404 page
 
 ## License
 
