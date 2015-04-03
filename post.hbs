@@ -59,4 +59,23 @@
         </article>
     </main>
 
+    <aside>
+        {{#next_post}}
+            <a href="{{url}}">
+                <section class="{{#if image}}has-cover{{else}}no-cover{{/if}}" {{#if image}}style="background-image: url({{image}});"{{/if}}>
+                    <h2>{{title}}</h2>
+                    <p>{{excerpt words="20"}}&hellip;</p>
+                </section>
+            </a>
+        {{/next_post}}
+        {{#prev_post}}
+            <a href="{{url}}">
+                <section class="{{#if image}}has-cover{{else}}no-cover{{/if}}" {{#if image}}style="background-image: url({{image}});"{{/if}}>
+                    <h2>{{title}}</h2>
+                    <p>{{excerpt words="20"}}&hellip;</p>
+                </section>
+            </a>
+        {{/prev_post}}
+    </aside>
+
 {{/post}}

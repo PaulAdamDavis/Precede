@@ -5,11 +5,11 @@
             <h2><a href="{{url}}">{{{title}}}</a></h2>
         </header>
         <section>
-            <p>{{excerpt words="30"}} <a href="{{url}}">&raquo;</a></p>
+            <p>{{excerpt words="50"}} <a href="{{url}}">&raquo;</a></p>
         </section>
         <footer>
             {{#if author.image}}
-                <img src="{{author.image}}" alt="Author image" />
+                <img src="{{author.image}}" alt="Author image" width="200" />
             {{/if}}
             {{author}}
             {{tags prefix=" on "}}
