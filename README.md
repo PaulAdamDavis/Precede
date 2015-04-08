@@ -37,6 +37,10 @@ Parts of the theme such as pagination and navigation usually use a built-in part
 - Pages
 - Errors (i.e. 404 page)
 
+## Resources
+
+- [Style Test](https://gist.github.com/ErisDS/7e3455b70133640823c0) - A bunch of Markdown & HTML to test every possible element you'd need to theme
+
 ## License
 
 Precede is released under the [MIT license](LICENSE), so you can do whatever you want, with no restrictions.
