@@ -4,19 +4,17 @@
 {{^is "paged"}}
     <header class="{{#if tag.image}}has-cover{{else}}no-cover{{/if}}" {{#if tag.image}}style="background-image: url({{tag.image}});"{{/if}}>
         {{>header}}
+
         <h1>{{tag.name}}</h1>
         <h2>
             {{#if tag.description}}
                 {{tag.description}}
             {{/if}}
-
         </h2>
         <p>{{plural pagination.total empty="No posts" singular="1 post" plural="% posts"}} with this the tag &ldquo;{{tag.name}}&rdquo;</p>
     </header>
 {{/is}}
 
 <main role="main">
-
     {{> "loop"}}
-
 </main>

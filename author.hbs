@@ -4,19 +4,17 @@
 {{^is "paged"}}
     <header class="{{#if author.cover}}has-cover{{else}}no-cover{{/if}}" {{#if author.cover}}style="background-image: url({{author.cover}});"{{/if}}>
         {{>header}}
+
         <h1>{{author.name}}</h1>
         <h2>
             {{#if author.bio}}
                 {{author.bio}}
             {{/if}}
-
         </h2>
         <p>{{plural pagination.total empty="No posts" singular="1 post" plural="% posts"}} by {{author.name}}</p>
     </header>
 {{/is}}
 
 <main role="main">
-
     {{> "loop"}}
-
 </main>
