@@ -5,6 +5,7 @@
 Precede is a style-less theme for [Ghost](https://github.com/TryGhost/Ghost), it is intended to be used as a starting point for creating new themes.
 
 There will be 2 versions, one with an empty `screen.css` file, and another with Sass already setup. That includes `grunt-sass` and a set of Grunt tasks to make release zips so you can more easily distribute your theme without including `node_modules` and any other files never used in a Ghost theme.
+The Grunt/Sass version will be based on [Mono](https://github.com/PaulAdamDavis/Mono) will come [shortly](https://github.com/PaulAdamDavis/Precede/issues/1).
 
 ## Getting Started
 
@@ -14,6 +15,7 @@ Forking this repository if you want to make a new theme doesn't make sense, as e
 - Unzip in your local Ghost project, under `ghost/content/themes/Precede`
 - Rename the theme folder `mv Precede TheNewName`
 - Open `package.json` and change the name there too.
+- (Optional, but recommended) `git init` and awesomeness
 - Go mad with your new changes!
 
 ## Features
@@ -31,7 +33,7 @@ Parts of the theme such as pagination and navigation usually use a built-in part
 - Author pages
 - Cover images
 - Posts
-    - Next & Previous post links
+- Next & Previous post links
 - Pages
 - Errors (i.e. 404 page)
 
